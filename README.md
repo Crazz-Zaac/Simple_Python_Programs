@@ -1,4 +1,4 @@
-# Some_Python_Programs
+# Some Python Programs for practice
 This repo consists many simple to complex problems implemented using Python. These programs are not completed yet and still needs more changes. The logic implemented here are not copied from anywhere. 
 
 ## Requirements
@@ -15,4 +15,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
 
