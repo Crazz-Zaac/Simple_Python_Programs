@@ -2,7 +2,8 @@
 This repo consists many simple to complex problems implemented using Python. These programs are not completed yet and still needs more changes. The logic implemented here are not copied from anywhere. 
 
 ## Requirements
-All you require is a python 3 version to compile and so far nothing else. You may also use some python libraries such as ### numpy to efficiently work with list of datas smoothly
+All you require is a python 3 version to compile and so far nothing else. You may also use some python libraries such as ### numpy to efficiently work with list of datas smoothly. 
+
 For Linux users, install python 3 as follows through terminal:
 ```
 sudo apt-get update 
