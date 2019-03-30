@@ -17,20 +17,20 @@ class Gap_tst:
                8, 8, 9, 2, 9, 1, 8, 5, 4, 4, 5, 
                0, 2, 3, 9, 7, 1, 2, 0, 3, 6, 3]
     def __init__(self, alpha):
-        self.alpha = alpha
+        self.alpha=alpha
     
     def calc(self):
-        for x in range(10):
-            pos = self.dataset.index(x) #position of first x = 0
-            for y in range(self.dataset.count(x)):
-                count = 0
-                v = pos+1
-                self.dct[x] = str(v) + " "
-                n = v
+        for x in range(10): #from 0 to 9
+            pos=self.dataset.index(x) #position of first x = 0
+            for y in range(pos, self.dataset.count(x)): #from pos to the end of list
+                count=0
+                v=pos+1 
+                self.dct[x]=str(v) + " "
+                n=v
                 while True:
-                    if self.dataset[n] != x :
-                        count +=1
-                        n +=1
+                    if self.dataset[n]!=x :
+                        count+=1
+                        n+=1
                     else:
                         pos = 
                         break

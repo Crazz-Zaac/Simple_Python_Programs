@@ -47,4 +47,3 @@ class Chi:
 
 Chi_square = Chi(0.05, 0.04)
 Chi_square.calc()
-
